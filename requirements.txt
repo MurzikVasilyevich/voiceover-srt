@@ -1,0 +1,8 @@
+requests
+gtts
+sox
+pandas
+deep_translator
+google-cloud-texttospeech
+tqdm
+srt
