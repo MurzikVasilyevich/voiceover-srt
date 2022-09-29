@@ -1,13 +1,10 @@
 import codecs
-import logging.config
 import os
 import random
 import textwrap
 from datetime import timedelta
 import uuid
 
-import pandas as pd
-import requests
 from google.cloud.texttospeech_v1beta1 import VoiceSelectionParams, AudioConfig, AudioEncoding, \
     SynthesizeSpeechRequest, SynthesisInput, TextToSpeechClient, SsmlVoiceGender
 from srt import Subtitle, compose
